@@ -1,0 +1,9 @@
+2022/08/05-21:01:48.962 365d Reusing MANIFEST leveldb/MANIFEST-000001
+2022/08/05-21:01:48.962 365d Recovering log #8
+2022/08/05-21:01:48.963 365d Level-0 table #10: started
+2022/08/05-21:01:48.966 365d Level-0 table #10: 121208 bytes OK
+2022/08/05-21:01:48.966 365d Recovering log #9
+2022/08/05-21:01:48.966 365d Reusing old log leveldb/000009.log 
+2022/08/05-21:01:48.968 365d Delete type=0 #8
+2022/08/05-21:02:34.119 36e6 Level-0 table #12: started
+2022/08/05-21:02:34.122 36e6 Level-0 table #12: 158580 bytes OK

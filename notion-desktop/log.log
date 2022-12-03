@@ -1,0 +1,235 @@
+[2022-08-05 20:58:31.452] [info] Checking for update
+[2022-08-05 20:58:31.498] [info] Error reading /home/kaoxx/.config/notion-desktop/cookies.json Error: /home/kaoxx/.config/notion-desktop/cookies.json: ENOENT: no such file or directory, open '/home/kaoxx/.config/notion-desktop/cookies.json'
+    at Object.openSync (fs.js:447:3)
+    at Object.func (electron/js2c/asar.js:138:31)
+    at Object.func [as openSync] (electron/js2c/asar.js:138:31)
+    at Object.readFileSync (fs.js:349:35)
+    at Object.fs.readFileSync (electron/js2c/asar.js:580:40)
+    at Object.fs.readFileSync (electron/js2c/asar.js:580:40)
+    at Object.readFileSync (/usr/lib/notion-desktop/resources/app/node_modules/jsonfile/index.js:61:22)
+    at JsonStore.loadSync (/usr/lib/notion-desktop/resources/app/main/JsonStore.js:92:28)
+    at new JsonStore (/usr/lib/notion-desktop/resources/app/main/JsonStore.js:46:14)
+    at Object.<anonymous> (/usr/lib/notion-desktop/resources/app/main/CookieStore.js:53:23)
+[2022-08-05 20:58:31.579] [info] Error reading /home/kaoxx/.config/notion-desktop/assets.json Error: ENOENT: no such file or directory, open '/home/kaoxx/.config/notion-desktop/assets.json'
+[2022-08-05 20:58:31.579] [error] Error: Error: ENOENT: no such file or directory, open '/usr/lib/notion-desktop/resources/app-update.yml'
+[2022-08-05 20:58:31.581] [info] {
+  level: 'error',
+  from: 'autoUpdater',
+  type: 'unknownAutoUpdaterError',
+  error: [Error: ENOENT: no such file or directory, open '/usr/lib/notion-desktop/resources/app-update.yml'] {
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: '/usr/lib/notion-desktop/resources/app-update.yml'
+  }
+}
+[2022-08-05 20:58:31.587] [info] Error reading /home/kaoxx/.config/notion-desktop/headers.json Error: ENOENT: no such file or directory, open '/home/kaoxx/.config/notion-desktop/headers.json'
+[2022-08-05 20:58:31.587] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'loadJson',
+  data: { time: 29 }
+}
+[2022-08-05 20:58:31.588] [info] Error reading /home/kaoxx/.config/notion-desktop/assets.json Error: ENOENT: no such file or directory, open '/home/kaoxx/.config/notion-desktop/assets.json'
+[2022-08-05 20:58:31.588] [info] Error reading /home/kaoxx/.config/notion-desktop/headers.json Error: ENOENT: no such file or directory, open '/home/kaoxx/.config/notion-desktop/headers.json'
+[2022-08-05 20:58:31.588] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'verifyCache',
+  data: { time: 1 }
+}
+[2022-08-05 20:58:31.588] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'assetCacheInitialize',
+  data: { time: 30 }
+}
+[2022-08-05 20:58:41.491] [info] Checking for app update
+[2022-08-05 20:58:41.687] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 196 }
+}
+[2022-08-05 20:58:41.690] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 3 }
+}
+[2022-08-05 20:58:41.691] [info] App update available 23.10.25.75
+[2022-08-05 20:58:41.695] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'assetJson',
+  data: { time: 4 }
+}
+[2022-08-05 20:58:44.048] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'prepare',
+  data: { time: 2351 }
+}
+[2022-08-05 20:58:44.051] [info] App update download complete 23.10.25.75
+[2022-08-05 20:58:44.053] [info] Installing app update 23.10.25.75
+[2022-08-05 20:58:44.057] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'download',
+  data: { time: 6 }
+}
+[2022-08-05 20:58:44.058] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'checkForUpdatesNow',
+  data: { time: 2568 }
+}
+[2022-08-05 20:59:44.063] [info] Checking for app update
+[2022-08-05 20:59:44.258] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 194 }
+}
+[2022-08-05 20:59:44.262] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 4 }
+}
+[2022-08-05 20:59:44.262] [info] No app update available
+[2022-08-05 21:00:44.266] [info] Checking for app update
+[2022-08-05 21:00:44.464] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 197 }
+}
+[2022-08-05 21:00:44.467] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 2 }
+}
+[2022-08-05 21:00:44.468] [info] No app update available
+[2022-08-05 21:01:14.474] [info] Checking for update
+[2022-08-05 21:01:14.582] [error] Error: Error: ENOENT: no such file or directory, open '/usr/lib/notion-desktop/resources/app-update.yml'
+[2022-08-05 21:01:14.584] [info] {
+  level: 'error',
+  from: 'autoUpdater',
+  type: 'unknownAutoUpdaterError',
+  error: [Error: ENOENT: no such file or directory, open '/usr/lib/notion-desktop/resources/app-update.yml'] {
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: '/usr/lib/notion-desktop/resources/app-update.yml'
+  }
+}
+[2022-08-05 21:01:14.599] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'loadJson',
+  data: { time: 35 }
+}
+[2022-08-05 21:01:14.780] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'verifyCache',
+  data: { time: 180 }
+}
+[2022-08-05 21:01:14.781] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'assetCacheInitialize',
+  data: { time: 216 }
+}
+[2022-08-05 21:01:24.510] [info] Checking for app update
+[2022-08-05 21:01:24.721] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 209 }
+}
+[2022-08-05 21:01:24.726] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 4 }
+}
+[2022-08-05 21:01:24.726] [info] No app update available
+[2022-08-05 21:01:48.332] [info] Checking for update
+[2022-08-05 21:01:48.448] [error] Error: Error: ENOENT: no such file or directory, open '/usr/lib/notion-desktop/resources/app-update.yml'
+[2022-08-05 21:01:48.450] [info] {
+  level: 'error',
+  from: 'autoUpdater',
+  type: 'unknownAutoUpdaterError',
+  error: [Error: ENOENT: no such file or directory, open '/usr/lib/notion-desktop/resources/app-update.yml'] {
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: '/usr/lib/notion-desktop/resources/app-update.yml'
+  }
+}
+[2022-08-05 21:01:48.465] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'loadJson',
+  data: { time: 35 }
+}
+[2022-08-05 21:01:48.642] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'verifyCache',
+  data: { time: 177 }
+}
+[2022-08-05 21:01:48.643] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'assetCacheInitialize',
+  data: { time: 213 }
+}
+[2022-08-05 21:01:58.367] [info] Checking for app update
+[2022-08-05 21:01:58.600] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsFetch',
+  data: { time: 231 }
+}
+[2022-08-05 21:01:58.605] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'updateAssetsResponseParse',
+  data: { time: 3 }
+}
+[2022-08-05 21:01:58.605] [info] No app update available
+[2022-08-05 21:02:55.249] [info] Checking for update
+[2022-08-05 21:02:55.360] [error] Error: Error: ENOENT: no such file or directory, open '/usr/lib/notion-desktop/resources/app-update.yml'
+[2022-08-05 21:02:55.361] [info] {
+  level: 'error',
+  from: 'autoUpdater',
+  type: 'unknownAutoUpdaterError',
+  error: [Error: ENOENT: no such file or directory, open '/usr/lib/notion-desktop/resources/app-update.yml'] {
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: '/usr/lib/notion-desktop/resources/app-update.yml'
+  }
+}
+[2022-08-05 21:02:55.377] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'loadJson',
+  data: { time: 34 }
+}
+[2022-08-05 21:02:55.584] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'verifyCache',
+  data: { time: 207 }
+}
+[2022-08-05 21:02:55.585] [info] {
+  level: 'info',
+  from: 'assetCache',
+  type: 'assetCacheInitialize',
+  data: { time: 243 }
+}
